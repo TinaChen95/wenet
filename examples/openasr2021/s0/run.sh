@@ -59,7 +59,7 @@ average_checkpoint=true
 decode_checkpoint=$dir/final.pt
 average_num=35
 
-. utils/parse_options.sh || exit 1;
+. tools/parse_options.sh || exit 1;
 
 #Babel style data preparation
 if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then

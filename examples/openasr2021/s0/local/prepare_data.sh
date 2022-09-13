@@ -7,7 +7,7 @@
 
 . ./conf/lang.conf
 . ./path.sh
-. ./cmd.sh
+#. ./cmd.sh
 
 sph2pipe_version="v2.5"
 if [ ! -d tools/sph2pipe_${sph2pipe_version} ]; then
